@@ -2,12 +2,16 @@ import React from "react";
 import Counter from "./components/Counter";
 import Todo from "./components/Todo";
 import "./style.css";
+import Meals from "./components/Meals";
+import Calculator from "./components/Calculator";
 
 const App = () => {
   return (
     <div>
       {/* <Counter /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <Meals /> */}
+      <Calculator />
     </div>
   );
 };
